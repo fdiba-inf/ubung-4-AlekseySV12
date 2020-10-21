@@ -23,6 +23,7 @@ public class MinIndex {
         for (int i = 0; i < numbers.length; i++) {
             if(min==numbers[i]){
               System.out.println("Min index: "+i);
+              break;
             }
             }
 
